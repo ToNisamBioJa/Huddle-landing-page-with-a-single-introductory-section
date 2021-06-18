@@ -1,0 +1,20 @@
+.social__links {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+
+  &--link {
+    margin-right: 1rem;
+    padding: 0.5rem 0.6rem;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    transition: all 0.2s ease;
+
+    &:hover {
+      color: hsl(300, 69%, 71%);
+      border: 1px solid $soft-magenta;
+      transform: translate(0px, -2px);
+    }
+  }
+}

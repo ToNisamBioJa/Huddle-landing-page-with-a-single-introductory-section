@@ -1,0 +1,14 @@
+.btn {
+  background-color: #fff;
+  padding: 0.7rem 4.5rem;
+  color: $violet;
+  font-family: "Poppins", sans-serif;
+  border-radius: 25px;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+
+  &:hover {
+    background-color: $soft-magenta;
+    color: #fff;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+  }
+}
